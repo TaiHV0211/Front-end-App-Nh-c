@@ -1,0 +1,8 @@
+@media (max-width: 64.9375em){
+    body{
+        background-image: url(../img/pattern-background-mobile.svg);
+        background-repeat: no-repeat;
+        background-color: #e0e8ff;
+        font-size: 1.6rem;
+    }
+}

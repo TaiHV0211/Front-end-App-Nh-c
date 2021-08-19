@@ -1,0 +1,119 @@
+html{
+    margin: 0;
+    padding: 0;
+    max-width: 1440px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-image: url(../img/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    background-color: #e0e8ff;
+    font-size: 1.6rem;
+}
+.img-header{
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.main-container{
+    background-color: white;
+    width: 350px;
+    height: 500px;
+    background-color: white;
+    margin: 100px auto;
+    padding-bottom: 20px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: 3px 3px 3px #888888;
+}
+.header{
+    width: 100%;
+}
+.first-contact{
+    text-align: center;
+}
+.header-content{
+    padding-top: 20px;
+    margin: 14px 0;
+}
+.sub-content{
+    margin: 16px 30px;
+    font-size: 16px;
+    text-align: center;
+    opacity: 0.8;
+}
+.music{
+    width: 280px;
+    height: 60px;
+    margin: 0 35px;
+    background-color: #f4f9f9;
+    display: flex;
+    font-size: 11px;
+    position: relative;
+}
+.icon-music{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 15px;
+    left: 20px;
+}
+.name-music{
+    color: black;
+    font-weight: 700;
+    margin-left: 30px;
+    position: relative;
+    left: 32px;
+    top: 5px;
+}
+.quantity{
+    position: relative;
+    margin-left: 32px;
+    left: 32px;
+    opacity: 0.8;
+}
+.Change-music{
+    position: absolute;
+    top: 20px;
+    right: 16px;
+    color: black;
+    opacity: 0.7;
+}
+.Change-music:hover{
+    color: #3829e0;
+}
+.Payment{
+    width: 280px;
+    height: 30px;
+    background-color: #3829e0;
+    margin: 20px auto;
+    border-radius: 0.4rem;
+    text-align: center;
+    padding-bottom: 3px;
+}
+.proceed-pay{
+    font-size: 13px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 700;
+}
+.proceed-pay:hover{
+    color: #ccc;
+}
+.cancel{
+    font-size: 11px;
+    text-align: center;
+}
+.cancel-order{
+    color: #333;
+    text-decoration: none;
+    font-weight: 600;
+    opacity: 0.7;
+}
+.cancel-order:hover{
+    color: #3829e0;
+    font-weight: 800;
+}
